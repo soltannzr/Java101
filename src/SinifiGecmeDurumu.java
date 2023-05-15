@@ -52,6 +52,5 @@ public class SinifiGecmeDurumu {
             System.out.println("Sınıfta kaldınız.");
         }
         System.out.println("Ortalamanız: " + average);
-
     }
 }
