@@ -2,8 +2,10 @@ import java.util.Scanner;
 public class HesapMakinesi {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
-        double a, b;
+
+       double a, b;
         int select;
+
         System.out.println("İlk sayıyı giriniz: ");
         a = input.nextDouble();
 
@@ -12,8 +14,10 @@ public class HesapMakinesi {
 
         System.out.println("1-Toplama\n2-Çıkarma\n3-Çarpma\n4-Bölme");
         System.out.println("Seçiminiz: ");
+
         select = input.nextInt();
-         switch (select) {
+
+        switch (select) {
              case 1:
                  System.out.println("Toplam: " + (a+b));
                  break;
