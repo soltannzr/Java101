@@ -2,7 +2,11 @@ import java.util.Scanner;
 public class SinifiGecmeDurumu {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
-         double math, music, chemistry, physics, turk, valid = 0, average, validNumber = 0;
+
+        //"valid" değişkeni tanımlayarak 0 ve 100 arasında olan notlar girildikçe, o notlar bu değişkenin içinde toplanacak.
+        //"validNumber" değişkenine de 0 ve 100 arası nota sahip ders sayısı atanacak.
+
+        double math, music, chemistry, physics, turk, valid = 0, average, validNumber = 0;
 
         System.out.print("Matematik notunu dahil ediniz: ");
         math = inp.nextDouble();
