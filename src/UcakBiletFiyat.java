@@ -3,8 +3,8 @@ public class UcakBiletFiyat {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
 
-        double km, costPerKm = 0.1 , total, discount = 0;
-        byte type = 0;
+        double km, costPerKm = 0.1 , total;
+        byte type;
         int age;
         boolean isError = false;
 
@@ -19,24 +19,22 @@ public class UcakBiletFiyat {
         total = km * costPerKm;
 
         if (age<12){
-            discount += total * 0.5;
+            total *= 0.5;
         }
         else if (age>=12 && age<=24) {
-            discount += total * 0.1;
+            total *= 0.9;
         }
         else if (age>65) {
-            discount += total * 0.1;
+            total *= 0.7;
         }
-
-        total -= discount;
 
         switch (type){
             case 2:
-                discount = total * 0.2;
-                total = (total - discount) * 2;
+                total *= 0.8;
+                total *= 2;
                 break;
             case 1:
-                discount = 0;
+                total = total;
                 break;
                 default:
                 isError = true;
