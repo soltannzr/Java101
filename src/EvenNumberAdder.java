@@ -4,7 +4,7 @@ public class EvenNumberAdder {
         Scanner inp = new Scanner(System.in);
 
         int a,sum = 0;
-        System.out.println("The program that adds up the even numbers divisible by 4 from the numbers you provide");
+        System.out.println("This program adds up the even numbers divisible by 4 from the numbers you provide");
          do{
              System.out.print("Enter a number: ");
              a=inp.nextInt();
