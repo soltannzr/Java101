@@ -5,7 +5,7 @@ public class Comparator {
         int n,x,max,min;
         int count=1;
 
-        System.out.print("How many numbers will you enter? ");
+        System.out.print("How many numbers will you enter? : ");
         n=inp.nextInt();
 
         System.out.print(count + ". number: ");
@@ -25,7 +25,7 @@ public class Comparator {
             }
             count++;
         }
-        System.out.println("Minimum: "+min);
+        System.out.println("\nMinimum: "+min);
         System.out.println("Maximum: "+max);
     }
 }
