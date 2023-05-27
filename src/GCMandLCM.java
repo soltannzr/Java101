@@ -1,3 +1,4 @@
+//Least Common Multiple and Greatest Common Divisor finder
 import java.util.Scanner;
 public class GCMandLCM {
     public static void main(String[] args) {
