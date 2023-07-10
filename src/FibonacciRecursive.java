@@ -1,4 +1,4 @@
-public class RecursiveFibonacci {
+public class FibonacciRecursive {
     static int fib(int n){
         if (n==1||n==2)
             return 1;
